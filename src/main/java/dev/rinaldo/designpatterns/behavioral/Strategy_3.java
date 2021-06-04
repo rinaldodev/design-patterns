@@ -37,7 +37,9 @@ class Compra3 implements Pagavel3 {
     }
     
     public void processar(EstrategiaPagamento3 estrategiaPagamento) {
+        // ..
         estrategiaPagamento.pagar(this);
+        // ..        
     }
 
     @Override
